@@ -2,10 +2,25 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
-.header {
+.header-section {
   display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.header-urls {
+  display: flex;
+  align-items: center;
+}
+
+.header-section a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
 }
 
 .dark-bg {
@@ -36,4 +51,9 @@ body {
 .hero-description {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
