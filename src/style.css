@@ -68,3 +68,28 @@ body {
   width: 120px;
   border: 0;
 }
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: grey;
+  width: 25%;
+  height: auto;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10% 20%;
+  gap: 32px;
+}
