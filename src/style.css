@@ -7,3 +7,15 @@ body {
 .header {
   display: flex;
 }
+
+.dark-bg {
+  background-color: #1f2937;
+}
+
+.grey-bg {
+  background-color: #e5e7eb;
+}
+
+.blue-bg {
+  background-color: #3882f6;
+}
