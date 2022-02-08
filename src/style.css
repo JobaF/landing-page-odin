@@ -19,3 +19,10 @@ body {
 .blue-bg {
   background-color: #3882f6;
 }
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
