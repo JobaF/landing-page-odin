@@ -113,6 +113,13 @@ body {
   margin-right: 16px;
 }
 
+.bottom-section {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .dark-bg {
   background-color: #1f2937;
 }
@@ -179,4 +186,8 @@ body {
   background-color: grey;
   width: 25%;
   height: auto;
+}
+
+.bottom-text {
+  color: white;
 }
