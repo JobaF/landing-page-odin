@@ -80,6 +80,28 @@ body {
   text-align: right;
 }
 
+.cta-section {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 50%;
+  border-radius: 8px;
+  align-items: center;
+  color: white;
+}
+
+.cta-box-header {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .header-urls {
   display: flex;
   align-items: center;
@@ -126,7 +148,8 @@ body {
   text-align: left;
 }
 
-.hero-button {
+.hero-button,
+.cta-box-button {
   border-radius: 5px;
   color: white;
   padding-left: 16px;
@@ -135,6 +158,10 @@ body {
   padding-bottom: 8px;
   width: 120px;
   border: 0;
+}
+
+.cta-box-button {
+  border: 2px white solid;
 }
 
 .hero-left {
