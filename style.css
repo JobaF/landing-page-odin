@@ -19,6 +19,14 @@ body {
   align-items: center;
 }
 
+.middle-section {
+  min-height: 400px;
+}
+
+.quote-section {
+  min-height: 400px;
+}
+
 .header-urls {
   display: flex;
   align-items: center;
