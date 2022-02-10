@@ -36,9 +36,15 @@ body {
 .middle-images {
   min-height: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 5%;
   align-items: flex-start;
+}
+
+.middle-images,
+.quote-section {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .middle-img-text {
@@ -62,6 +68,16 @@ body {
 
 .quote-section {
   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
 }
 
 .header-urls {
@@ -89,7 +105,6 @@ body {
 
 .quote-text {
   font-size: 36px;
-  font-weight: lighter;
   font-style: italic;
   color: #1f2937;
 }
