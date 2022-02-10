@@ -9,15 +9,19 @@ body {
 .header-section {
   display: flex;
   color: white;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .hero-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 400px;
   align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .middle-section {
@@ -177,6 +181,7 @@ body {
   flex-direction: column;
   gap: 8px;
   min-height: 50%;
+  justify-content: space-evenly;
 }
 
 .hero-right {
@@ -185,8 +190,8 @@ body {
   align-items: center;
   color: white;
   background-color: grey;
-  width: 25%;
-  height: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 .bottom-text {
