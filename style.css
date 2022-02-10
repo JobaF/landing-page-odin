@@ -12,6 +12,13 @@ body {
   padding: 16px;
 }
 
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  min-height: 400px;
+  align-items: center;
+}
+
 .header-urls {
   display: flex;
   align-items: center;
@@ -56,6 +63,7 @@ body {
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  text-align: left;
 }
 
 .hero-button {
@@ -72,12 +80,11 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  flex: 1;
   gap: 8px;
+  min-height: 50%;
 }
 
 .hero-right {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,11 +92,4 @@ body {
   background-color: grey;
   width: 25%;
   height: auto;
-}
-
-.hero-section {
-  display: flex;
-  justify-content: space-around;
-  padding: 10% 20%;
-  gap: 32px;
 }
